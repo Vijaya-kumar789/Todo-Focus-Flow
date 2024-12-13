@@ -1,7 +1,7 @@
 import axios from 'axios';
-
+import { BACKEND_API } from '../../utility/config';
 // define the base url for the API
-const baseURL = 'http://localhost:5000/api/v1';
+const baseURL = BACKEND_API;
 
 // create an axios instance
 const instance = axios.create({
